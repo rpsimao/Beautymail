@@ -28,7 +28,7 @@ class BeautymailServiceProvider extends ServiceProvider
             __DIR__.'/../../../public' => public_path('vendor/rpsimao'),
         ], 'public');
 
-        $this->loadViewsFrom(__DIR__.'/../../views', 'rpsimao');
+        $this->loadViewsFrom(__DIR__.'/../../views', 'beautymail');
 
         try {
             $this->app['mailer']->getSwiftMailer()->registerPlugin(new CssInlinerPlugin());
