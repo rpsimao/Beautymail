@@ -46,7 +46,7 @@ class BeautymailServiceProvider extends ServiceProvider
     {
         $this->app->singleton('Rpsimao\Beautymail\Beautymail',
             function ($app) {
-                return new \Snowfire\Beautymail\Beautymail(
+                return new \Rpsimao\Beautymail\Beautymail(
                     array_merge(
                         config('beautymail.view'),
                         [
