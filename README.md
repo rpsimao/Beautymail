@@ -216,7 +216,7 @@ To change colours for the different segments, pass a colour variable:
 
 ## Lumen support
 
-In order to get this working on Lumen follow the installation instructions except for the `artisan vendor:publish` command, since Lumen does not provide this command. Instead you have to copy the assets folder from `vendor/snowfire/beautymail/public/` to the public folder in your Lumen project manually.
+In order to get this working on Lumen follow the installation instructions except for the `artisan vendor:publish` command, since Lumen does not provide this command. Instead you have to copy the assets folder from `vendor/rpsimao/beautymail/public/` to the public folder in your Lumen project manually.
 
 Make sure to also put the `beautymail.php` config file in the `config` folder (default available in `src/config/settings.php`)
 
