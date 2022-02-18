@@ -16,14 +16,14 @@
     },
     "autoload": {
         "psr-0": {
-            "Snowfire\\Beautymail\\": "src/"
+            "Rpsimao\\Beautymail\\": "src/"
         }
     },
     "minimum-stability": "stable",
     "extra": {
         "laravel": {
             "providers": [
-                "Snowfire\\Beautymail\\BeautymailServiceProvider"
+                "Rpsimao\\Beautymail\\BeautymailServiceProvider"
             ]
         }
     }
